@@ -1,0 +1,10 @@
+{
+  "extends": "./playground/.nuxt/tsconfig.json",
+  "exclude": [
+    "dist",
+  ],
+  "include": [
+    "./src/*",
+    "./src/**/*",
+  ],
+}
