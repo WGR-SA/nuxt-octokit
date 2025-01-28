@@ -2,7 +2,7 @@
 <template>
   <UContainer class="flex flex-col gap-8 my-8">
     <UCard>
-      <UForm :state="formState" @submit="initOctokit" class="space-y-4">
+      <UForm :state="formState" class="space-y-4" @submit="initOctokit">
         <UFormGroup label="GitHub Token">
           <UInput v-model="formState.token" type="password" />
         </UFormGroup>
