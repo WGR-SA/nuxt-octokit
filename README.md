@@ -3,8 +3,8 @@ A Nuxt module that provides GitHub API integration via Octokit, with support for
 
 ### Features
 
-🔑 Dynamic GitHub token management
-🔄 Reactive Octokit instance
+- 🔑 Dynamic GitHub token management
+- 🔄 Reactive Octokit instance
 
 ## Installation
 
