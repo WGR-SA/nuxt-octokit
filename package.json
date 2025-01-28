@@ -5,6 +5,7 @@
   "repository": "@wgr-sa/nuxt-octokit",
   "author": "jeanvier",
   "license": "MIT",
+  "private": false,
   "type": "module",
   "exports": {
     ".": {
