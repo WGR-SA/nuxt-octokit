@@ -1,18 +1,18 @@
 # Nuxt Octokit Module
 A Nuxt module that provides GitHub API integration via Octokit, with support for dynamic token management.
 
-## Features
+### Features
 
 🔑 Dynamic GitHub token management
 🔄 Reactive Octokit instance
 
-### Installation
+## Installation
 
 ```BASH
 npm i @wgr-sa/nuxt-octokit
 ```
 
-## Add Module to nuxt.config.ts
+### Add Module to nuxt.config.ts
 ```JS
 export default defineNuxtConfig({
   modules: [
@@ -21,7 +21,7 @@ export default defineNuxtConfig({
 })	
 ```
 
-### Usage
+## Usage
 Setting the GitHub Token
 You can set the GitHub token after initialization, which is useful for auth flows:
 
@@ -45,5 +45,5 @@ if ($octokit.isInitialized) {
 $octokit.clearToken()
 ```
 
-### License
+## License
 MIT License
