@@ -15,10 +15,6 @@ export default defineNuxtModule({
 
     nuxt.options.build.transpile.push(
       '@octokit/rest',
-      '@octokit/core',
-      '@octokit/auth-token',
-      '@octokit/plugin-paginate-rest',
-      '@octokit/plugin-rest-endpoint-methods',
       'fast-content-type-parse',
     )
   },

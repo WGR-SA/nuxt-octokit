@@ -2,7 +2,18 @@ import { Octokit } from '@octokit/rest'
 import { ref } from 'vue'
 import { defineNuxtPlugin } from '#app'
 
-export default defineNuxtPlugin((_nuxtApp) => {
+type OctokitPluginApi = {
+  provide: {
+    octokit: {
+      instance: Octokit
+      setToken: (token: string) => void
+      clearToken: () => void
+      isInitialized: boolean
+    }
+  }
+}
+
+export default defineNuxtPlugin((_nuxtApp): OctokitPluginApi => {
   const octokitRef = ref<Octokit | null>(null)
 
   function setGithubToken(token: string) {
