@@ -1,6 +1,6 @@
 {
   "name": "@wgr-sa/nuxt-octokit",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Octokit wrap for nuxt",
   "repository": "@wgr-sa/nuxt-octokit",
   "author": "jeanvier",
